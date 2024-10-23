@@ -6,4 +6,4 @@ if a > 0:
     else:
         print("Day la so nho hon 10")
 else: 
-    print("Vui nhap lai")
+    print("Vui long nhap lai")
