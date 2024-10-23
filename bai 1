@@ -1,0 +1,6 @@
+a = int(input("Nhap so nguyen duong a: "))
+
+if a > 10:
+    print("Day la so lon hon 10")
+else:
+    print("Day la so nho hon 10")
