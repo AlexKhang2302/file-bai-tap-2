@@ -1,0 +1,25 @@
+a = float(input("Nhap diem Toan: "))
+b = float(input("Nhap diem Van: "))
+c = float(input("Nhap diem Anh: "))
+
+if 0 <= a and 0 <= b and 0 <= c and a <= 10 and b <= 10 and c <= 10:
+    if (a + b + c)/2 >= 8:
+        if a >= 8 or b >= 8:
+            if c >= 6.5 and a >= 6.5 and b >= 6.5:
+                print("Hoc sinh gioi")
+    elif (a + b + c)/2 >= 6.5 and (a + b + c)/2 < 8:
+        if a >= 6.5 or b >= 6.5:
+            if c >= 5 and a >= 5 and b >= 5:
+                print("Hoc sinh trung kha")
+    elif (a + b + c)/2 >= 5 and (a + b + c)/2 < 6.5:
+        if a >= 5 or b >= 5:
+            if c >= 3.5 and a >= 3.5 and b >= 3.5:
+                print("Hoc sinh trung binh")
+    elif (a + b + c)/2 >= 3.5 and (a + b + c)/2 < 5:
+        if a >= 3.5 or b >= 3.5:
+            if c >= 2 and a >= 2 and b >= 2:
+                print("Hoc sinh yeu")
+    else:
+        print("Hoc sinh kem")
+else:
+    print("Vui long nhap lai diem")
