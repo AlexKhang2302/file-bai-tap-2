@@ -1,9 +1,9 @@
 a = int(input("Nhap so nguyen duong a: "))
 
 if a > 0:
-    if a > 10:
-        print("Day la so lon hon 10")
+    if a%2 == 0:
+        print("a la so chan")
     else:
-        print("Day la so nho hon 10")
+        print("a khong la so chan")
 else: 
     print("Vui long nhap lai")
