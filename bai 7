@@ -1,0 +1,21 @@
+a = int(input("Nhap thang: "))
+b = int(input("Nhap nam: "))
+
+if 0 < a and a <= 12:
+    if b%4 == 0:
+        if a == 1 or a == 3 or a == 5 or a == 7 or a == 8 or a == 10 or a == 12:
+            print("thang nay co 31 ngay")
+        elif a == 2:
+            print("thang nay co 29 ngay")
+        else:
+            print("thang nay co 30 ngay")
+    else:
+        if a == 1 or a == 3 or a == 5 or a == 7 or a == 8 or a == 10 or a == 12:
+            print("thang nay co 31 ngay")
+        elif a == 2:
+            print("thang nay co 28 ngay")
+        else:
+            print("thang nay co 30 ngay")
+        
+else:
+    print("Nhap lai thang")
